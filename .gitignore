@@ -3,33 +3,27 @@ node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
 # Build output
 dist/
 build/
 out/
-.next/
-.nuxt/
-.cache/
 
-# Environment variables
+# Environment files
 .env
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*.local
 
-# IDE/Editor files
-.vscode/
-.idea/
-*.code-workspace
+# OS junk
 .DS_Store
 Thumbs.db
 
-# Logs
-logs/
-*.log
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
 
-# OS files
-.Trash-*
+# Tailwind/Next/Vite cache if you use them
+.next/
+.nuxt/
+.cache/
